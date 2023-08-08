@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "  $variable=$${variable}"
-
+"${local_vars[@]}";

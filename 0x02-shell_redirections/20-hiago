@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d "c" "C"
+echo "$input" | tr -d '[:lower:]c[:upper:]C'

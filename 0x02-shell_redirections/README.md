@@ -1,1 +1,1 @@
-"my Redirections"
+"My redirections"

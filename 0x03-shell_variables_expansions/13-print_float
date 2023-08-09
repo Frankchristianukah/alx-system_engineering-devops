@@ -1,2 +1,2 @@
 #!/bin/bash
-$(env | grep NUM | cut -d= -f2)
+printf "%.2f" "$num"

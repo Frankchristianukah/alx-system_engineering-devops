@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$hex"
+env | grep DECIMAL | cut -d= -f2

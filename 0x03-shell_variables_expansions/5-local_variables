@@ -1,2 +1,2 @@
 #!/bin/bash
-$(set | grep -vE "^declare -f |^export")
+set

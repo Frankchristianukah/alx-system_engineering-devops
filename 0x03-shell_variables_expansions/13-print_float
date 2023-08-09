@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$formatted_num"
+$(env | grep NUM | cut -d= -f2)

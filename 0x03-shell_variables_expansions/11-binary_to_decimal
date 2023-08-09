@@ -1,2 +1,2 @@
 #!/bin/bash
-$(echo $binary | rev);
+echo "$((2#$BINARY))"

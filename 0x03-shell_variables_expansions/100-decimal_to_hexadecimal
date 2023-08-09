@@ -1,2 +1,2 @@
 #!/bin/bash
-env | grep DECIMAL | cut -d= -f2
+printf '%x\n' $DECIMAL
